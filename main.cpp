@@ -62,7 +62,7 @@ int creat_res_FREE(char***ppp,int count,int cnt1)  //三级指针分配作输出
 {
     int err = 1;
     int i = 0;
-    char**src=*ppp
+    char**src=*ppp;
 
     if (src == NULL)
     {
